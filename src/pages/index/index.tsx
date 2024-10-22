@@ -66,11 +66,11 @@ class Index extends Component<PropsWithChildren> {
   render () {
     return (
       <View className='index'>
-        <Button className='add_btn' color='success' onClick={this.props.add}>+</Button>
+        {/* <Button className='add_btn' color='success' onClick={this.props.add}>+</Button>
         <Button className='dec_btn' color='success' onClick={this.props.dec}>-</Button>
         <Button className='dec_btn' onClick={this.props.asyncAdd}>async</Button>
-        <View><Text>{this.props.counter.num}</Text></View>
-        <View><Text>Hello, World</Text></View>
+        <View><Text>{this.props.counter.num}</Text></View> */}
+        <View><Text>Novel Center</Text></View>
       </View>
     )
   }
